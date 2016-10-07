@@ -1,0 +1,184 @@
+/*body's background*/
+body
+{
+	background-color: rgb(213, 255, 255);	
+}
+/*header styling*/
+header
+{
+	background:#e3e3e3;
+	position: fixed;
+	width:100%;
+	top:0px;
+	height: 120px;
+}
+
+/*logo*/
+.logo
+{
+	float: left;
+	width:30%;
+}
+
+.icon
+{
+	float: left;
+	width: 150px;
+	height:100px;
+	display: inline;
+	margin: 10px 0px 0px 10px;
+	border-radius: 50px;
+}
+
+/*Globetron title*/
+.top_fix
+{
+	margin-top: 25px;
+}
+
+.name
+{
+	font-family:'PT Sans',sans-serif;
+	font-size: 50px;
+	font-style: bold;
+	display: inline;
+	margin: 0px 0px 0px 30px;
+	text-align: center;
+	color: rgb(255, 70, 98);
+}
+
+/*navigation bar*/
+.nav_menu
+{
+	float: right;
+	line-height: 20px;
+	width: 70%;
+	margin: 50px 0px 0px 0px;
+}
+
+nav li
+{
+	display: inline;
+}
+
+li a
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Scada', sans-serif;
+	font-size: 20px;
+	overflow:hidden;
+	height: 20px;
+	padding-right: 70px;
+	letter-spacing: 1px;
+	font-weight: 200;
+	color: (85, 26, 139);
+}
+
+nav a:hover
+{
+	color: yellow;
+}
+
+nav a:visited
+{
+	color: (85, 26, 139);
+}
+
+.menu_tag
+{
+	float: right;
+}
+
+/*4_columns*/
+.4_columns
+{
+	width: 960px;
+	height:400px;
+	background-color: #e3e3e3;
+}
+
+.wrap_section_1
+{
+	margin-top: 150px;
+	margin-bottom: 0px;
+	background-color: white;
+	width: auto;
+	height:250px;
+	border-radius: 12px;
+}
+
+.wrap_section_1:hover
+{
+	box-shadow: 10px 10px 5px #888;
+}
+
+.img_section
+{
+	width: 220px;
+	height:145px;
+	border-top-left-radius:12px;
+	border-top-right-radius:12px;
+}
+
+.sec_p
+{
+   	color: #0e0e0e;
+	font-size: 18px;
+	font-family: 'PT Sans', sans-serif;
+	font-style: italic;
+	text-align: left;
+	padding: 20px 10px 0px 30px;
+}
+
+.sec_heading
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	text-align: left;
+	padding: 10px 10px 10px 30px;
+	color:#82b62d;
+}
+
+.wrap_section_2
+{
+	margin-top: 50px;
+	margin-bottom: 0px;
+	background-color: white;
+	width: auto;
+	height:250px;
+	border-radius: 12px;
+}
+
+.wrap_section_2:hover
+{
+	box-shadow: 10px 10px 5px #888;
+}
+
+/*footer*/
+footer
+{
+	width:100%;
+	height:130px;
+	background-color: #303233;
+}
+
+/*copyrights*/
+#copyrights
+{
+	font-family: 'pt sans',sans-serif;
+	font-size: 20px;
+	text-align:left;
+	margin:75px 40px 30px 50px;
+	float: left;
+	display: inline;
+}
+
+/*social sites menu*/
+.social
+{
+	float: right;
+	margin:65px 40px 0px 40px;
+	padding-right: 10px;
+}
+
